@@ -8,19 +8,18 @@
 ?>
 	<body onload="goHome()">
 	If you're seeing this you have successfully logged in but scripts have disabled.
-	<?php echo $currentUser; ?>
 	</body>
 	</html>
 <?php
 	}
-	else { 
+	else {
 ?>
-	<body>
+	<body> 
 	<div>
 	<a href="registration.php">Register</a> / <a href="login.html">Login</a>
 	</div>
 	</body>
 	</html>
-<?php 
+<?php
 	}
 ?>

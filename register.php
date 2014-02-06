@@ -15,25 +15,25 @@
 	$input = "";
 	if(isset($_POST['firstname'])){
 		$firstname = $_POST['firstname'];
-		$input = $input."".$firstname."/n";
+		$input = $input."".$firstname."\n";
 	} else {
 		noDetails();
 	}
 	if(isset($_POST['surname'])){
 		$surname = $_POST['surname'];
-		$input = $input."".$surname."/n";
+		$input = $input."".$surname."\n";
 	} else {
 		noDetails();
 	}
 	if(isset($_POST['username'])){
 		$username = $_POST['username'];
-		$input = $input."".$username."/n";
+		$input = $input."".$username."\n";
 	} else {
 		noDetails();
 	}
 	if(isset($_POST['password'])){
 		$password = $_POST['password'];
-		$input = $input."".$password."/n";
+		$input = $input."".$password."\n";
 	} else {
 		noDetails();
 	}
