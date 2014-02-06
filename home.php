@@ -16,7 +16,7 @@
 		</body>
 		<script type="text/javascript">
 	$('.logout').click(function(tag) {
-		<?php setCookie("existingUser", $_POST['username'], time()-3600, "/"); ?>
+		<?php setCookie("existingUser", $currentUser, time()-3600, "/"); ?>
 		tag.preventDefault();
 		$(this).parents('form').submit();
 	});

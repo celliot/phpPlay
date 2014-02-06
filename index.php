@@ -4,7 +4,6 @@
 </head>
 <?php
 	if (isset($_COOKIE['existingUser'])) {
-		$currentUser = $_COOKIE['existingUser'];
 ?>
 	<body onload="goHome()">
 	If you're seeing this you have successfully logged in but scripts have disabled.
